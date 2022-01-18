@@ -1,0 +1,24 @@
+-- CREATE DATABASE CompnayDb
+-- CREATE TABLE Persons (
+--     PersonID int,
+--     FirstName nvarchar(30),
+--     LastName nvarchar(30),
+--     Degree NVARCHAR(30),
+--     Salary int
+-- );
+-- INSERT INTO Persons
+-- VALUES (1,'Azim','Mov','junior',2100)
+-- INSERT into Persons
+-- VALUES (2,'Nicat','Memmedov','senior',4200)
+-- INSERT into Persons
+-- VALUES (3,'Sanan','Zeynalov','senior',2200)
+-- SELECT * FROM Persons;
+-- SELECT AVG(Salary) 
+-- FROM Persons
+-- SELECT FirstName + ' ' + LastName 'Fullname' FROM Persons
+-- where Salary > (SELECT AVG(Salary) FROM Persons)
+-- SELECT max(Salary) FROM Persons
+-- SELECT min(Salary) FROM Persons
+-- SELECT * FROM Persons
+-- where Salary > (SELECT AVG(Salary) FROM Persons)
+-- DROP TABLE Persons
